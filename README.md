@@ -55,6 +55,10 @@ Consulte [ARCHITECTURE.md](ARCHITECTURE.md) antes de alterar modelos, APIs ou al
 
 O conjunto inicial está em [`data/mvp`](data/mvp/README.md). Ele separa explicitamente referências públicas de valores demonstrativos e evita publicar coordenadas de estação ou métricas de demanda sem fonte espacial/estatística verificável. O repositório de leitura fica em [`backend/app/repositories/city_data_repository.py`](backend/app/repositories/city_data_repository.py), pronto para ser trocado por uma fonte real sem alterar os contratos de domínio.
 
+## Mapa interativo
+
+O frontend em [`frontend`](frontend) usa React, Vite e MapLibre para mostrar a rede, estações, polos de demanda, candidatas e uma linha proposta demonstrativa. Execute `npm install` e `npm run dev` dentro da pasta `frontend`. Os componentes de camada ficam em `frontend/src/components/map` e os dados exclusivos desta tela em `frontend/src/data/mockMapData.ts`.
+
 ## Convenções para implementação
 
 - Coordenadas geográficas externas usam `longitude, latitude` em WGS84 (EPSG:4326), como GeoJSON.
