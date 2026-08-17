@@ -1,0 +1,27 @@
+{
+  "dataset_id": "sp-urban-mvp-v1",
+  "generated_at": "2026-08-17",
+  "network_snapshot_as_of": "2024-12-31",
+  "coordinate_reference_system": "EPSG:4326",
+  "coordinate_order": "longitude, latitude",
+  "sources": [
+    {
+      "id": "metro-public-network-reference",
+      "title": "Rede do Metrô de São Paulo — referência pública",
+      "url": "https://www.metro.sp.gov.br/",
+      "status": "reference",
+      "use": "Nomes de linhas, estações e ordem operacional do recorte de referência; validar novamente antes de publicação."
+    },
+    {
+      "id": "mvp-curation-2026-08",
+      "title": "Curadoria do MVP",
+      "status": "demonstrative",
+      "use": "Geometrias aproximadas, pesos, zonas e seleção de polos para demonstração."
+    }
+  ],
+  "replacement_contract": {
+    "stable_ids": "Preservar ids quando a fonte real substituir um registro; adicionar source_record_id no atributo original.",
+    "geometry": "Aceitar GeoJSON WGS84; declarar geometry_quality e provenance em cada feature.",
+    "demand": "Substituir somente indicadores demonstrativos por métricas agregadas, com período, unidade, método e licença."
+  }
+}

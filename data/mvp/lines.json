@@ -1,0 +1,12 @@
+{
+  "type": "TransitLineCollection",
+  "provenance": {"status": "reference", "source_id": "metro-public-network-reference", "verified_at": "2026-08-17", "notes": "Catálogo referente à operação até 2024-12-31; reconferir contra a fonte oficial antes de uso público."},
+  "features": [
+    {"id":"l1-azul","name":"Linha 1-Azul","mode":"metro","color":"#00A9E0","station_ids":["tucuruvi","parada-inglesa","jardim-sao-paulo-ayrton-senna","santana","carandiru","portuguesa-tiete","armenia","tiradentes","luz","sao-bento","se","japao-liberdade","sao-joaquim","vergueiro","paraiso","ana-rosa","vila-mariana","santa-cruz","praca-da-arvore","saude-ultramar","sao-judas","conceicao","jabaquara"]},
+    {"id":"l2-verde","name":"Linha 2-Verde","mode":"metro","color":"#00A651","station_ids":["vila-madalena","sumare","clinicas","consolacao","trianon-masp","brigadeiro","paraiso","ana-rosa","chacara-klabin","santos-imigrantes","alto-do-ipiranga","sacoma","tamanduatei","vila-prudente"]},
+    {"id":"l3-vermelha","name":"Linha 3-Vermelha","mode":"metro","color":"#E31837","station_ids":["palmeiras-barra-funda","marechal-deodoro","santa-cecilia","republica","anhangabau","se","pedro-ii","bras","bresser-mooca","belem","tatuape","carrrao","penha","vila-matilde","guilhermina-esperanca","patriarca-vila-re","artur-alvim","corinthians-itaquera"]},
+    {"id":"l4-amarela","name":"Linha 4-Amarela","mode":"metro","color":"#F7C600","station_ids":["luz","republica","higienopolis-mackenzie","paulista","oscar-freire","fradique-coutinho","faria-lima","pinheiros","butanta","sao-paulo-morumbi","vila-sonia"]},
+    {"id":"l5-lilas","name":"Linha 5-Lilás","mode":"metro","color":"#8E44AD","station_ids":["capao-redondo","campo-limpo","vila-das-belezas","giovanni-gronchi","santo-amaro","largo-treze","adolfo-pinheiro","alto-da-boa-vista","borba-gato","brooklin","campo-belo","eucaliptos","moema","aacd-servidor","hospital-sao-paulo","santa-cruz","chacara-klabin"]},
+    {"id":"l15-prata","name":"Linha 15-Prata","mode":"monorail","color":"#A7A9AC","station_ids":["vila-prudente","oratorio","vila-tolstoi","vila-uniao","jardim-planalto","sapopemba","fazenda-da-juta","sao-mateus","jardim-colonial"]}
+  ]
+}

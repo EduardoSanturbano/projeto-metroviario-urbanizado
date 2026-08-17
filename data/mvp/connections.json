@@ -1,0 +1,14 @@
+{
+  "type": "TransitConnectionCollection",
+  "provenance": {"status":"demonstrative","source_id":"mvp-curation-2026-08","notes":"Conexões de transferência explícitas; conexões adjacentes devem ser derivadas da ordem em lines.json. Tempos e distâncias não foram estimados."},
+  "features": [
+    {"from_station_id":"luz","to_station_id":"luz","line_ids":["l1-azul","l4-amarela"],"kind":"transfer"},
+    {"from_station_id":"republica","to_station_id":"republica","line_ids":["l3-vermelha","l4-amarela"],"kind":"transfer"},
+    {"from_station_id":"se","to_station_id":"se","line_ids":["l1-azul","l3-vermelha"],"kind":"transfer"},
+    {"from_station_id":"ana-rosa","to_station_id":"ana-rosa","line_ids":["l1-azul","l2-verde"],"kind":"transfer"},
+    {"from_station_id":"paraiso","to_station_id":"paraiso","line_ids":["l1-azul","l2-verde"],"kind":"transfer"},
+    {"from_station_id":"santa-cruz","to_station_id":"santa-cruz","line_ids":["l1-azul","l5-lilas"],"kind":"transfer"},
+    {"from_station_id":"chacara-klabin","to_station_id":"chacara-klabin","line_ids":["l2-verde","l5-lilas"],"kind":"transfer"},
+    {"from_station_id":"vila-prudente","to_station_id":"vila-prudente","line_ids":["l2-verde","l15-prata"],"kind":"transfer"}
+  ]
+}

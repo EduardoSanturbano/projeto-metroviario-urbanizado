@@ -51,6 +51,10 @@ metro-urbano/
 
 Consulte [ARCHITECTURE.md](ARCHITECTURE.md) antes de alterar modelos, APIs ou algoritmos.
 
+## Camada de dados inicial
+
+O conjunto inicial está em [`data/mvp`](data/mvp/README.md). Ele separa explicitamente referências públicas de valores demonstrativos e evita publicar coordenadas de estação ou métricas de demanda sem fonte espacial/estatística verificável. O repositório de leitura fica em [`backend/app/repositories/city_data_repository.py`](backend/app/repositories/city_data_repository.py), pronto para ser trocado por uma fonte real sem alterar os contratos de domínio.
+
 ## Convenções para implementação
 
 - Coordenadas geográficas externas usam `longitude, latitude` em WGS84 (EPSG:4326), como GeoJSON.

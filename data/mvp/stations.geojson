@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "name": "sp_metro_stations_catalog",
+  "metadata": {"provenance":{"status":"reference","source_id":"metro-public-network-reference","verified_at":"2026-08-17"},"geometry_policy":"As coordenadas foram deliberadamente omitidas. Este catálogo não alegará precisão geográfica até receber uma fonte espacial licenciada e verificável."},
+  "features": [
+    {"type":"Feature","id":"luz","geometry":null,"properties":{"name":"Luz","kind":"metro_station","geometry_quality":"none","provenance":{"status":"reference","source_id":"metro-public-network-reference"}}},
+    {"type":"Feature","id":"se","geometry":null,"properties":{"name":"Sé","kind":"metro_station","geometry_quality":"none","provenance":{"status":"reference","source_id":"metro-public-network-reference"}}},
+    {"type":"Feature","id":"republica","geometry":null,"properties":{"name":"República","kind":"metro_station","geometry_quality":"none","provenance":{"status":"reference","source_id":"metro-public-network-reference"}}},
+    {"type":"Feature","id":"ana-rosa","geometry":null,"properties":{"name":"Ana Rosa","kind":"metro_station","geometry_quality":"none","provenance":{"status":"reference","source_id":"metro-public-network-reference"}}},
+    {"type":"Feature","id":"paraiso","geometry":null,"properties":{"name":"Paraíso","kind":"metro_station","geometry_quality":"none","provenance":{"status":"reference","source_id":"metro-public-network-reference"}}},
+    {"type":"Feature","id":"santa-cruz","geometry":null,"properties":{"name":"Santa Cruz","kind":"metro_station","geometry_quality":"none","provenance":{"status":"reference","source_id":"metro-public-network-reference"}}},
+    {"type":"Feature","id":"chacara-klabin","geometry":null,"properties":{"name":"Chácara Klabin","kind":"metro_station","geometry_quality":"none","provenance":{"status":"reference","source_id":"metro-public-network-reference"}}},
+    {"type":"Feature","id":"vila-prudente","geometry":null,"properties":{"name":"Vila Prudente","kind":"metro_station","geometry_quality":"none","provenance":{"status":"reference","source_id":"metro-public-network-reference"}}},
+    {"type":"Feature","id":"pinheiros","geometry":null,"properties":{"name":"Pinheiros","kind":"metro_station","geometry_quality":"none","provenance":{"status":"reference","source_id":"metro-public-network-reference"}}},
+    {"type":"Feature","id":"tatuape","geometry":null,"properties":{"name":"Tatuapé","kind":"metro_station","geometry_quality":"none","provenance":{"status":"reference","source_id":"metro-public-network-reference"}}}
+  ]
+}

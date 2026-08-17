@@ -1,0 +1,10 @@
+{
+  "type":"FeatureCollection",
+  "name":"sp_mvp_demand_zones",
+  "metadata":{"provenance":{"status":"demonstrative","source_id":"mvp-curation-2026-08"},"warning":"Polígonos esquemáticos, não limites administrativos. Os índices são relativos (0–100), não população, empregos ou embarques reais."},
+  "features":[
+    {"type":"Feature","id":"zona-centro","geometry":{"type":"Polygon","coordinates":[[[-46.650,-23.560],[-46.620,-23.560],[-46.620,-23.535],[-46.650,-23.535],[-46.650,-23.560]]]},"properties":{"name":"Centro expandido","density_index":95,"employment_index":100,"demand_index":98,"provenance":{"status":"demonstrative","source_id":"mvp-curation-2026-08"}}},
+    {"type":"Feature","id":"zona-oeste","geometry":{"type":"Polygon","coordinates":[[[-46.740,-23.580],[-46.675,-23.580],[-46.675,-23.535],[-46.740,-23.535],[-46.740,-23.580]]]},"properties":{"name":"Oeste universitário","density_index":72,"employment_index":85,"demand_index":78,"provenance":{"status":"demonstrative","source_id":"mvp-curation-2026-08"}}},
+    {"type":"Feature","id":"zona-sudeste","geometry":{"type":"Polygon","coordinates":[[[-46.600,-23.630],[-46.535,-23.630],[-46.535,-23.570],[-46.600,-23.570],[-46.600,-23.630]]]},"properties":{"name":"Sudeste adensado","density_index":84,"employment_index":48,"demand_index":76,"provenance":{"status":"demonstrative","source_id":"mvp-curation-2026-08"}}}
+  ]
+}
